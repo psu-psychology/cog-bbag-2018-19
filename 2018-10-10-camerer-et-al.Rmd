@@ -117,7 +117,8 @@ knitr::include_graphics("https://mfr.osf.io/export?url=https://osf.io/wp38a/?act
 ## About this document
 
 This document was produced on `r Sys.time()` in [RStudio 1.1.453](http://rstudio.com) using R Markdown.
-The code and materials used to it may be found at <https://github.com/psu-psychology/cog-bbag-2018-19/2018-10-10-camerer-et-al-Rmd>. 
+The code and materials used to it may be found at <https://github.com/psu-psychology/cog-bbag-2018-19/2018-10-10-camerer-et-al.Rmd>.
+The rendered page may be viewed at <https://psu-psychology.github.io/cog-bbag-2018-19/2018-10-10-camerer-et-al.html>
 Information about the R Session that produced the document is as follows:
 
 ---
