@@ -47,6 +47,20 @@ Open Science Collaboration. (2015). Estimating the reproducibility of psychologi
 <small>([Szucs & Ioannides, 2017](http://doi.org/10.1371/journal.pbio.2000797))</small>
 </div>
 
+### Many Labs Project
+
+What is the sampling distribution of effect sizes under replication?
+
+<img src="https://econtent.hogrefe.com/na101/home/literatum/publisher/hogrefe/journals/content/zsp/2014/zsp.2014.45.issue-3/1864-9335_a000178/20150727/images/large/zsp_45_3_142_fig1a.jpeg"/>
+
+Klein, R. A., Ratliff, K. A., Vianello, M., Adams, R. B., Bahník, Š., Bernstein, M. J., Bocian, K., et al. (2014). Investigating variation in replicability: A “many labs” replication project. Social psychology, 45(3), 142–152. Retrieved April 6, 2016, from http://econtent.hogrefe.com/doi/abs/10.1027/1864-9335/a000178
+
+### Many Babies
+
+<img src="img/manybabies-github.jpg"/>
+
+Frank, M. C., Bergelson, E., Bergmann, C., Cristia, A., Floccia, C., Gervain, J., Hamlin, J. K., et al. (2017). A collaborative approach to infant research: Promoting reproducibility, best practices, and theory-building. Infancy: the official journal of the International Society on Infant Studies. Wiley Online Library. Retrieved from http://onlinelibrary.wiley.com/doi/10.1111/infa.12182/full
+
 ## What did they do?
 
 - High-powered (90% power to effects smaller than original) replications of $n=21$ studies published in *Science* and *Nature* between 2010-2015
@@ -105,14 +119,63 @@ knitr::include_graphics("https://mfr.osf.io/export?url=https://osf.io/wp38a/?act
 
 - Defining replication 'success'
 - "...That peers are to some extent able to predict which studies are most likely to replicate suggests that there are features of the original studies that journals or researchers can use in determining ex ante whether a study is likely to replicate."
+- What *is* an 'acceptable' replication rate for published empirical findings?
 
 ## Why does it matter?
 
-> "However, the effect sizes of published studies may be inflated even for true-positive findings owing to publication or reporting biases. As a consequence, if replications were well powered to detect effect sizes smaller than those observed in the original stud- ies, replication rates might be higher than those estimated in the RPP and the EERP."
+> "*However, the effect sizes of published studies may be inflated even for true-positive findings owing to publication or reporting biases. As a consequence, if replications were well powered to detect effect sizes smaller than those observed in the original stud- ies, replication rates might be higher than those estimated in the RPP and the EERP.*"
 
-> "...we believe that reasonable lower-bound and upper-bound estimates are 35% and 75%, respectively, for an average reproducibility rate of published findings in social and behavioural sciences."
+> "*...we believe that reasonable lower-bound and upper-bound estimates are 35% and 75%, respectively, for an average reproducibility rate of published findings in social and behavioural sciences.*"
+
+---
+
+> "*When Nosek reads studies like these, he asks himself whether he would care at all if the results were negative. In many cases, the answer would be no. Some of the traders relied on similar judgments. 'I did a sniff test of whether the results actually make sense,' says Paul Smeets from Maastricht University. 'Some results look quite spectacular but also seem a bit too good to be true, which usually that means they are.'*" (Yong)
+
+> "*Six such projects, including the SSRP, have now been completed. Between them, they’ve successfully replicated just 87 out of 190 studies, for an overall rate of 46 percent. 'This is not acceptable,' says Simine Vazire from UC Davis.*" (Yong)
 
 - Effect sizes in published papers are likely up to 2x larger than 'true' values
+
+## Papers replicated/questioned(??)
+
+??Ackerman, J. M., Nocera, C. C., & Bargh, J. A. (2010). Incidental haptic sensations influence social judgments and decisions. Science, 328(5986), 1712–1715. science.sciencemag.org. Retrieved from http://dx.doi.org/10.1126/science.1189993
+
+Aviezer, H., Trope, Y., & Todorov, A. (2012). Body cues, not facial expressions, discriminate between intense positive and negative emotions. Science, 338(6111), 1225–1229. science.sciencemag.org. Retrieved from http://dx.doi.org/10.1126/science.1224313
+
+Balafoutas, L., & Sutter, M. (2012). Affirmative action policies promote women and do not harm efficiency in the laboratory. Science, 335(6068), 579–582. science.sciencemag.org. Retrieved from http://dx.doi.org/10.1126/science.1211180
+
+Derex, M., Beugin, M.-P., Godelle, B., & Raymond, M. (2013). Experimental evidence for the influence of group size on cultural complexity. Nature, 503(7476), 389–391. nature.com. Retrieved from http://dx.doi.org/10.1038/nature12774
+
+Duncan, K., Sadanand, A., & Davachi, L. (2012). Memory’s penumbra: episodic memory decisions induce lingering mnemonic biases. Science, 337(6093), 485–487. science.sciencemag.org. Retrieved from http://dx.doi.org/10.1126/science.1221936
+
+??Gervais, W. M., & Norenzayan, A. (2012). Analytic thinking promotes religious disbelief. Science, 336(6080), 493–496. science.sciencemag.org. Retrieved from http://dx.doi.org/10.1126/science.1215647
+
+Gneezy, U., Keenan, E. A., & Gneezy, A. (2014). Avoiding overhead aversion in charity. Science, 346(6209), 632–635. American Association for the Advancement of Science. Retrieved October 10, 2018, from http://science.sciencemag.org/content/346/6209/632.short
+
+Hauser, O. P., Rand, D. G., Peysakhovich, A., & Nowak, M. A. (2014). Cooperating with the future. Nature, 511(7508), 220–223. nature.com. Retrieved from http://dx.doi.org/10.1038/nature13530
+
+Janssen, M. A., Holahan, R., Lee, A., & Ostrom, E. (2010). Lab experiments for the study of social-ecological systems. Science, 328(5978), 613–617. science.sciencemag.org. Retrieved from http://dx.doi.org/10.1126/science.1183532
+
+Karpicke, J. D., & Blunt, J. R. (2011). Retrieval practice produces more learning than elaborative studying with concept mapping. Science, 331(6018), 772–775. science.sciencemag.org. Retrieved from http://dx.doi.org/10.1126/science.1199327
+
+??Kidd, D. C., & Castano, E. (2013). Reading literary fiction improves theory of mind. Science, 342(6156), 377–380. science.sciencemag.org. Retrieved from http://dx.doi.org/10.1126/science.1239918
+
+Kovács, Á. M., Téglás, E., & Endress, A. D. (2010). The social sense: susceptibility to others’ beliefs in human infants and adults. Science, 330(6012), 1830–1834. science.sciencemag.org. Retrieved from http://dx.doi.org/10.1126/science.1190792
+
+??Lee, S. W. S., & Schwarz, N. (2010). Washing away postdecisional dissonance. Science, 328(5979), 709. science.sciencemag.org. Retrieved from http://dx.doi.org/10.1126/science.1186799
+
+Morewedge, C. K., Huh, Y. E., & Vosgerau, J. (2010). Thought for food: imagined consumption reduces actual consumption. Science, 330(6010), 1530–1533. science.sciencemag.org. Retrieved from http://dx.doi.org/10.1126/science.1195701
+
+Nishi, A., Shirado, H., Rand, D. G., & Christakis, N. A. (2015). Inequality and visibility of wealth in experimental social networks. Nature, 526(7573), 426–429. nature.com. Retrieved from http://dx.doi.org/10.1038/nature15392
+
+??Ramirez, G., & Beilock, S. L. (2011). Writing about testing worries boosts exam performance in the classroom. Science, 331(6014), 211–213. science.sciencemag.org. Retrieved from http://dx.doi.org/10.1126/science.1199427
+
+??Rand, D. G., Greene, J. D., & Nowak, M. A. (2012). Spontaneous giving and calculated greed. Nature, 489(7416), 427–430. nature.com. Retrieved from http://dx.doi.org/10.1038/nature11467
+
+??Shah, A. K., Mullainathan, S., & Shafir, E. (2012). Some consequences of having too little. Science, 338(6107), 682–685. science.sciencemag.org. Retrieved from http://dx.doi.org/10.1126/science.1222426
+
+??Sparrow, B., Liu, J., & Wegner, D. M. (2011). Google Effects on Memory: Cognitive Consequences of Having Information at Our Fingertips, ISSN 0036-8075; online ISSN 1095-9203, VOL. 333. Science, 333(0643), 776–778. Retrieved from http://dx.doi.org/10.1126/science.1207745
+
+Wilson, T. D., Reinhard, D. A., Westgate, E. C., Gilbert, D. T., Ellerbeck, N., Hahn, C., Brown, C. L., et al. (2014). Just think: The challenges of the disengaged mind. Science, 345(6192), 75–77. American Association for the Advancement of Science. Retrieved October 10, 2018, from http://science.sciencemag.org/content/345/6192/75.short
 
 ## About this document
 
