@@ -2,7 +2,12 @@
 title: 'Discussing Camerer et al. 2018'
 author: "Rick Gilmore"
 date: "`r Sys.time()`"
-output: html_document
+output: 
+  html_document:
+    toc: true
+    toc_depth: 3
+    toc_float: true
+    number_sections: true
 ---
 
 ```{r setup, include=FALSE}
@@ -11,7 +16,7 @@ knitr::opts_chunk$set(echo = FALSE,
                       out.width = '100%')
 ```
 
-## Discussion of
+# Discussion of
 
 Camerer, C. F., Dreber, A., Holzmeister, F., Ho, T.-H., Huber, J., Johannesson, M., Kirchler, M., et al. (2018). Evaluating the replicability of social science experiments in Nature and Science between 2010 and 2015. *Nature Human Behaviour*, *1*. Nature Publishing Group. Retrieved August 28, 2018, from https://www.nature.com/articles/s41562-018-0399-z
 
@@ -23,15 +28,15 @@ Project on OSF: <https://osf.io/pfdyw/>
 
 <style>.embed-responsive{position:relative;height:100%;}.embed-responsive iframe{position:absolute;height:100%;}</style><script>window.jQuery || document.write('<script src="//code.jquery.com/jquery-1.11.2.min.js">\x3C/script>') </script><link href="https://mfr.osf.io/static/css/mfr.css" media="all" rel="stylesheet"><div id="mfrIframe" class="mfr mfr-file"></div><script src="https://mfr.osf.io/static/js/mfr.js"></script> <script>var mfrRender = new mfr.Render("mfrIframe", "https://mfr.osf.io/render?url=https://osf.io/sva2k/?action=download%26mode=render");</script>
 
-## Background
+# Background
 
-### Reproducibility Project: Psychology (RPP)
+## Reproducibility Project: Psychology (RPP)
 
 Open Science Collaboration. (2015). Estimating the reproducibility of psychological science. Science, 349(6251), aac4716–aac4716. American Association for the Advancement of Science. Retrieved February 17, 2017, from http://science.sciencemag.org/content/349/6251/aac4716
 
 > "We conducted replications of 100 experimental and correlational studies published in three psychology journals using high-powered designs and original materials when available....The mean effect size (r) of the replication effects (Mr = 0.197, SD = 0.257) was half the magnitude of the mean effect size of the original effects (Mr = 0.403, SD = 0.188), representing a substantial decline. Ninety-seven percent of original studies had significant results (P < .05). Thirty-six percent of replications had significant results; 47% of original effect sizes were in the 95% confidence interval of the replication effect size; 39% of effects were subjectively rated to have replicated the original result; and if no bias in original results is assumed, combining original and replication results left 68% with statistically significant effects."
 
-### Studies are underpowered
+## Studies are underpowered
 
 <div class="centered">
 <img src="http://journals.plos.org/plosbiology/article/file?id=10.1371/journal.pbio.2000797.g003&type=large" height=500px>
@@ -47,7 +52,7 @@ Open Science Collaboration. (2015). Estimating the reproducibility of psychologi
 <small>([Szucs & Ioannides, 2017](http://doi.org/10.1371/journal.pbio.2000797))</small>
 </div>
 
-### Many Labs Project
+## Many Labs Project
 
 What is the sampling distribution of effect sizes under replication?
 
@@ -55,13 +60,13 @@ What is the sampling distribution of effect sizes under replication?
 
 Klein, R. A., Ratliff, K. A., Vianello, M., Adams, R. B., Bahník, Š., Bernstein, M. J., Bocian, K., et al. (2014). Investigating variation in replicability: A “many labs” replication project. Social psychology, 45(3), 142–152. Retrieved April 6, 2016, from http://econtent.hogrefe.com/doi/abs/10.1027/1864-9335/a000178
 
-### Many Babies
+## Many Babies
 
 <img src="img/manybabies-github.jpg"/>
 
 Frank, M. C., Bergelson, E., Bergmann, C., Cristia, A., Floccia, C., Gervain, J., Hamlin, J. K., et al. (2017). A collaborative approach to infant research: Promoting reproducibility, best practices, and theory-building. Infancy: the official journal of the International Society on Infant Studies. Wiley Online Library. Retrieved from http://onlinelibrary.wiley.com/doi/10.1111/infa.12182/full
 
-## What did they do?
+# What did they do?
 
 - High-powered (90% power to effects smaller than original) replications of $n=21$ studies published in *Science* and *Nature* between 2010-2015
 - "...all experimental studies published between 2010 and 2015 that (1) test for an experimental treatment effect between or within subjects, (2) test at least one clear hypothesis with a sta- tistically significant finding, and (3) were performed on students or other accessible subject pools."
@@ -69,9 +74,9 @@ Frank, M. C., Bergelson, E., Bergmann, C., Cristia, A., Floccia, C., Gervain, J.
 - "...replication sample sizes in stage 1 were about three times as large as the original sample sizes and replication sample sizes in stage 2 were about six times as large as the original sample sizes."
 - "...replication and analysis plans were made publicly known on the project website, pre-registered at the Open Science Framework (OSF) and sent to the original authors for feedback and verification prior to data collecion..."
 
-## What did they find
+# What did they find
 
-### Replication studies
+## Replication studies
 
 ```{r, fig.cap="Camerer et al. Fig 1"}
 knitr::include_graphics("img/camerer-2018-fig-1.jpg")
@@ -93,7 +98,7 @@ knitr::include_graphics("img/camerer-2018-fig-2-cap.jpg")
 knitr::include_graphics("https://mfr.osf.io/export?url=https://osf.io/vew97/?action=download%26mode=render%26direct%26public_file=True&initialWidth=680&childId=mfrIframe&parentTitle=OSF+%7C+S4+-+CorrelationEffectSizes.png&parentUrl=https://osf.io/vew97/&format=2400x2400.jpeg")
 ```
 
-### Prediction markets
+## Prediction markets
 
 ```{r, fig.cap = 'Camerer et al. Fig 5'}
 knitr::include_graphics("https://mfr.osf.io/export?url=https://osf.io/cefq7/?action=download%26mode=render%26direct%26public_file=True&initialWidth=680&childId=mfrIframe&parentTitle=OSF+%7C+F4+-+PeerBeliefs.png&parentUrl=https://osf.io/cefq7/&format=2400x2400.jpeg")
@@ -107,7 +112,7 @@ knitr::include_graphics("https://mfr.osf.io/export?url=https://osf.io/teprz/?act
 knitr::include_graphics("https://mfr.osf.io/export?url=https://osf.io/wp38a/?action=download%26mode=render%26direct%26public_file=True&initialWidth=680&childId=mfrIframe&parentTitle=OSF+%7C+S8+-+PeerBeliefsEffectSize.png&parentUrl=https://osf.io/wp38a/&format=2400x2400.jpeg")
 ```
 
-### Summary
+## Summary
 
 - significant effect in same direction for 13 (62%) studies
 - effect size ~50% of the original
@@ -115,7 +120,7 @@ knitr::include_graphics("https://mfr.osf.io/export?url=https://osf.io/wp38a/?act
 - estimated true-positive rate is 67% in a Bayesian analysis
 - prediction market valuations corresponded to 'success' of replication efforts
 
-## Issues
+# Issues
 
 - Defining replication 'success'
 - "...That peers are to some extent able to predict which studies are most likely to replicate suggests that there are features of the original studies that journals or researchers can use in determining ex ante whether a study is likely to replicate."
@@ -177,7 +182,7 @@ Nishi, A., Shirado, H., Rand, D. G., & Christakis, N. A. (2015). Inequality and 
 
 Wilson, T. D., Reinhard, D. A., Westgate, E. C., Gilbert, D. T., Ellerbeck, N., Hahn, C., Brown, C. L., et al. (2014). Just think: The challenges of the disengaged mind. Science, 345(6192), 75–77. American Association for the Advancement of Science. Retrieved October 10, 2018, from http://science.sciencemag.org/content/345/6192/75.short
 
-## About this document
+# About this document
 
 This document was produced on `r Sys.time()` in [RStudio 1.1.453](http://rstudio.com) using R Markdown.
 The code and materials used to it may be found at <https://github.com/psu-psychology/cog-bbag-2018-19/2018-10-10-camerer-et-al.Rmd>.
