@@ -120,7 +120,7 @@ knitr::include_graphics("https://mfr.osf.io/export?url=https://osf.io/wp38a/?act
 - estimated true-positive rate is 67% in a Bayesian analysis
 - prediction market valuations corresponded to 'success' of replication efforts
 
-# Issues
+# Issues/Discussion
 
 - Defining replication 'success'
 - "...That peers are to some extent able to predict which studies are most likely to replicate suggests that there are features of the original studies that journals or researchers can use in determining ex ante whether a study is likely to replicate."
@@ -128,7 +128,7 @@ knitr::include_graphics("https://mfr.osf.io/export?url=https://osf.io/wp38a/?act
 
 ## Why does it matter?
 
-> "*However, the effect sizes of published studies may be inflated even for true-positive findings owing to publication or reporting biases. As a consequence, if replications were well powered to detect effect sizes smaller than those observed in the original stud- ies, replication rates might be higher than those estimated in the RPP and the EERP.*"
+> "*However, the effect sizes of published studies may be inflated even for true-positive findings owing to publication or reporting biases. As a consequence, if replications were well powered to detect effect sizes smaller than those observed in the original studies, replication rates might be higher than those estimated in the RPP and the EERP.*"
 
 > "*...we believe that reasonable lower-bound and upper-bound estimates are 35% and 75%, respectively, for an average reproducibility rate of published findings in social and behavioural sciences.*"
 
@@ -139,6 +139,10 @@ knitr::include_graphics("https://mfr.osf.io/export?url=https://osf.io/wp38a/?act
 > "*Six such projects, including the SSRP, have now been completed. Between them, they’ve successfully replicated just 87 out of 190 studies, for an overall rate of 46 percent. 'This is not acceptable,' says Simine Vazire from UC Davis.*" (Yong)
 
 - Effect sizes in published papers are likely up to 2x larger than 'true' values
+
+## Take the survey
+
+<https://80000hours.org/psychology-replication-quiz/>
 
 ## Papers replicated/questioned(??)
 
